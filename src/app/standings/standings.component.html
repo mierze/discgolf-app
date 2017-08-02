@@ -1,0 +1,12 @@
+<div *ngFor="let r of test | async">
+  <h2>Week {{r.week}} {{r.course}}</h2>
+  <h3>Par {{r.par}} // SSE {{r.sse}}</h3>
+  <h5>Birdie pool ${{r.birdie}}</h5>
+  <ol>
+    <li *ngFor="let p of r.players">
+      <a class="link" (click)="goToProfile(p.id)">{{p.name}}</a>: {{p.score}} {{getScore(p.score,r.par,p.handicap)}} (H{{p.handicap}}) <strong *ngIf="p.payout">-- ${{p.payout}}</strong>
+    </li>
+  </ol>
+</div>
+
+<!-- <p>{{data}}</p> -->

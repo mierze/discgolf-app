@@ -1,0 +1,47 @@
+<p>
+  dash works!
+</p>
+<div *ngFor="let r of rounds$ | async">
+  <button (click)="getKey(r)">jkhjkh</button> {{r.course}}
+</div>
+<md-input-container class="full-width">
+  <!-- <label mdLabel>TEsting</label> -->
+  <input type="text" name="" value="">
+  <input mdInput [(ngModel)]="score.id" placeholder="placeholder" />
+
+</md-input-container>
+
+<form class="example-form">
+  <md-input-container class="example-full-width">
+    <input mdInput placeholder="Course" name="course" [(ngModel)]="round.course">
+  </md-input-container>
+  <md-input-container class="example-full-width" *ngIf="round.par">
+    <input mdInput placeholder="Par" name="par" [(ngModel)]="round.par">
+  </md-input-container>
+  <md-input-container class="example-full-width" *ngIf="round.sse">
+    <input mdInput placeholder="SSE" name="sse" [(ngModel)]="round.sse">
+  </md-input-container>
+  <md-input-container class="example-full-width" *ngIf="round.birdie">
+    <input mdInput placeholder="Birdie Pool" name="birdie" [(ngModel)]="round.birdie">
+  </md-input-container>
+  <button (click)="fetchCourseInfo(round)" md-raised-button color="primary" name="button">Fetch course info</button>
+</form>
+<button md-button name="button" (click)="addPlayer()">Add Player</button>
+<div class="list-of-players">
+  <div *ngFor="let p of round.players">
+    <h1>Player {{index}}</h1>
+    <md-input-container class="example-full-width">
+      <input mdInput placeholder="Player ID" [(ngModel)]="p.id">
+    </md-input-container>
+    <md-input-container class="example-full-width">
+      <input mdInput placeholder="Score" [(ngModel)]="p.score">
+    </md-input-container>
+    <div>
+      {{p.name}} {{p.handicap}}
+    </div>
+    <button (click)="fetchPlayerInfo(p)" md-raised-button color="primary" name="button">Fetch</button>
+  </div>
+</div>
+<button md-button name="button" (click)="addScore()">Add</button>
+
+<button md-raised-button color="accent" name="button" (click)="testMe()">Test</button>

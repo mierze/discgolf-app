@@ -1,0 +1,141 @@
+[{
+  "week": 3,
+  "course": "Tyger"
+}, {
+  "week": 1,
+  "pot": 0,
+  "birdie": 0,
+  "par": 62,
+  "course": "Tyger",
+  "players": [{
+      "name": "Justin Peeler",
+      "handicap": 0,
+      "id": "84105",
+      "score": 54
+    },
+    {
+      "name": "Ian Fredrickson",
+      "handicap": 0,
+      "score": 57,
+      "id": "77821"
+    },
+    {
+      "name": "Benjamin Gossett",
+      "handicap": 0,
+      "score": 59,
+      "id": "74317"
+    },
+    {
+      "name": "Michael Gossett",
+      "score": 62,
+      "handicap": 0,
+      "id": "88805"
+    },
+    {
+      "name": "David Galloway",
+      "score": 62,
+      "handicap": 0,
+      "id": "85048"
+    },
+
+    {
+      "name": "Owen Camp",
+      "score": 62,
+      "handicap": 0,
+      "id": "97586"
+    },
+    {
+      "name": "Brett Stetson",
+      "handicap": 0,
+      "score": 64,
+      "id": "79063"
+    },
+    {
+      "name": "Cross Keller",
+      "score": 64,
+      "handicap": 0,
+      "id": "cross-keller"
+    },
+    {
+      "name": "Bob Ley",
+      "score": 64,
+      "handicap": 0,
+      "id": "41792"
+    },
+    {
+      "name": "Ryan Knapp",
+      "score": 66,
+      "handicap": 0,
+      "id": "91243"
+    },
+    {
+      "name": "Kenny Miller",
+      "score": 67,
+      "handicap": 0,
+      "id": "kenny-miller"
+    },
+    {
+      "name": "John Rooney",
+      "score": 68,
+      "handicap": 0,
+      "id": "john-rooney"
+    },
+    {
+      "name": "Scott Hawkins",
+      "id": "scott-hawkins",
+      "handicap": 0,
+      "score": 69
+    },
+    {
+      "name": "Michael Pye",
+      "score": 71,
+      "handicap": 0,
+      "id": "michael-pye"
+    }
+  ]
+}, {
+  "week": 2,
+  "course": "Pipeline",
+  "par": 60,
+  "pot": 30,
+  "birdie": 8,
+  "players": [{
+      "name": "Justin Peeler",
+      "id": "84105",
+      "handicap": 0,
+      "score": 57,
+      "payout": 20
+    },
+    {
+      "name": "Justin Gross",
+      "id": "justin-gross",
+      "handicap": 0,
+      "score": 57,
+      "payout": 10
+    },
+    {
+      "name": "Brett Stetson",
+      "id": "79063",
+      "handicap": 0,
+      "score": 58
+    },
+    {
+      "name": "Kenny Miller",
+      "id": "kenny-miller",
+      "handicap": 0,
+      "score": 58
+    },
+    {
+      "name": "Owen Camp",
+      "id": "97586",
+      "handicap": 0,
+      "score": 65
+    },
+    {
+      "name": "Eddie Schrieferr",
+      "id": "eddie-schrieferr",
+      "handicap": 0,
+      "score": 68
+    }
+  ]
+}]

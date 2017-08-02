@@ -1,0 +1,20 @@
+<section *ngIf="user && user.firstName">
+
+  <h1>{{user.firstName}} {{user.lastName}}</h1>
+  <h3 *ngIf="user.rating && user.rating > 0">
+    PDGA Rating: {{user.rating}}
+  </h3>
+  <h3>League Rating: {{getLeagueRating(user.handicap)}}</h3>
+  <h3>
+    Handicap: {{user.handicap}} off of course SSE
+  </h3>
+
+  <div *ngFor="let r of user.rounds">
+    <h4>Week {{r.week}} {{r.course}}</h4>
+    <h5>{{getScore(r)}} ({{r.score}})</h5>
+  </div>
+  <!-- <div *ngFor="let h of user.rounds[0].holes" class="hole alt-bg">
+  <h4>H{{user.rounds[0].holes.indexOf(h)+1}} <br>Par {{h.par}} <br>
+  {{h.score}}</h4>
+</div> -->
+</section>

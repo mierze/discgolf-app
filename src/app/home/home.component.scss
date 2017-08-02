@@ -1,0 +1,114 @@
+// @media screen and (max-height: 600px) {
+//     .app {
+//         padding-top: 5% !important;
+//         background-position: 0px 30% !important;
+//     }
+//     .quote {
+//         font-size: .8em;
+//     }
+// }
+//
+// @media screen and (max-width: 600px) {
+//     .blip {
+//         margin: 5px !important;
+//         width: 50px !important;
+//         height: 50px !important;
+//         background-size: 50px 50px !important;
+//     }
+//     .app {
+//         background-size: cover !important;
+//     }
+//     h1.title {
+//         font-size: 1.8em !important;
+//     }
+// }
+//
+// @media screen and (max-width: 600px) {
+//     h1.title {
+//         font-size: 1.6em !important;
+//     }
+// }
+//
+// @media screen and (max-height: 300px) {
+//     .app {
+//         background-position: 0px 50%;
+//         padding-top: 0% !important;
+//     }
+//     .blip {
+//         width: 40px !important;
+//         height: 40px !important;
+//         background-size: 40px 40px !important;
+//     }
+// }
+//
+// @media screen and (max-width: 850px) {
+//     .title {
+//         font-size: 2.6em !important;
+//     }
+// }
+//
+// .title {
+//     color: #fff;
+//     font-size: 3.6em;
+//     transition: margin 0.8s linear, font-size 0.4s linear;
+// }
+//
+// .app {
+//     background-image: url('../../assets/images/bg.png') !important;
+//     padding: 20% 10%;
+//     background-position: 90% -50%;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     position: fixed;
+//     top: 0;
+//     bottom: 0;
+//     left: 0;
+//     right: 0;
+//     transition: background 0.8s ease, padding 0.8s linear, font-size 0.7s linear;
+// }
+//
+// .blip {
+//     margin: 10px;
+//     border-radius: 50%;
+//     transition: background-size 0.8s ease, height 0.8s ease, width 0.8s ease;
+//     width: 60px;
+//     height: 60px;
+//     background-size: 60px 60px;
+// }
+//
+// .parks.blip {
+//     border-radius: 0% !important;
+//     background-size: contain;
+//     padding: 0;
+// }
+//
+// .instagram {
+//     background: url('../../assets/images/instagram2.svg');
+// }
+//
+// .youtube {
+//     background: url('../../assets/images/youtube.svg');
+// }
+//
+// .facebook {
+//     background: url('../../assets/images/facebook.svg');
+// }
+//
+// .parks {
+//     background: url('../../assets/images/parks.png');
+// }
+//
+// .email {
+//     display: block;
+//     background: transparent;
+//     background-image: url('../../assets/images/email.png');
+// }
+//
+// header h1 {
+//     margin-bottom: 0 !important;
+// }
+//
+// .quote p {
+//     color: rgba(255, 255, 255, .6) !important;
+//     max-width: 600px;
+// }
